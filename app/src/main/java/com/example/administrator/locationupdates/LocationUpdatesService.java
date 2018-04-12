@@ -23,7 +23,7 @@ import com.google.android.gms.location.LocationServices;
  */
 
 public class LocationUpdatesService extends Service implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
-
+    //https://stackoverflow.com/questions/43251528/android-o-old-start-foreground-service-still-working
     GoogleApiClient mLocationClient;
     LocationRequest mLocationRequest;
     private final long INTERVAL = 5 * 1000;  //5 Sec.
